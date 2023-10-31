@@ -14,6 +14,8 @@ classifiers = [ "License :: OSI Approved :: MIT License" ]
 [tool.scikit-build]
 minimum-version = "0.4"
 build-dir = "build/{wheel_tag}"
+cmake.minimum-version = "3.20"
+cmake.verbose = true
 
 [tool.cibuildwheel]
 build-verbosity = 1
