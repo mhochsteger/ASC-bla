@@ -6,7 +6,7 @@ requires = [
 build-backend = "scikit_build_core.build"
 
 [project]
-name = "ASCsoft"
+name = "ascsoft"
 version = "0.0.2"
 authors = [{name = "J. Schoeberl"}]
 classifiers = [ "License :: OSI Approved :: MIT License" ]
@@ -16,6 +16,7 @@ minimum-version = "0.6"
 build-dir = "build/{wheel_tag}"
 cmake.minimum-version = "3.27"
 cmake.verbose = true
+wheel.packages = ['ascsoft']
 
 [tool.cibuildwheel]
 build-verbosity = 10
