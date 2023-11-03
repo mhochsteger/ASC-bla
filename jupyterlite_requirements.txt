@@ -1,0 +1,16 @@
+jupyterlite-core~=0.2.0
+jupyterlab~=4.0.7
+notebook~=7.0.6
+
+jupyterlite-pyodide-kernel~=0.2.0
+
+ipywidgets>=8.1.1,<9
+ipyevents>=2.0.1
+ipympl>=0.8.2
+ipycanvas>=0.9.1
+ipyleaflet
+
+# Python: plotting libraries (optional)
+plotly>=5,<6
+
+webgui_jupyter_widgets==0.2.26

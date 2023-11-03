@@ -19,6 +19,7 @@ pyodide build
 make symlink to the one in emsdk, then build again
 
 ```
+pip install -r jupyterlite_requirements.txt
 jupyter lite build --output-dir jupyterlite --pyodide https://www.asc.tuwien.ac.at/~mhochsteger/ngsolve/ngsolve_pyodide_0.24.1.tar.bz2
 cd jupyterlite/static/pyodide
 node add_wheels.js ../../../dist/*.whl
